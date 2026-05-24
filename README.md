@@ -19,7 +19,7 @@ subsample
 n_estimators
 It selected the combination that maximized cross-validated accuracy, not just training performance.
 
-📈 Key Findings
+Key Findings
 1. Overfitting is still present
 Training accuracy ≫ validation accuracy
 Model memorizes training patterns due to boosting complexity
@@ -36,12 +36,12 @@ min_child_weight: 1 or 2
 subsample: 0.5 or 0.7
 n_estimators: 100
 
-🎯 Final conclusion
+Final conclusion
 XGBoost significantly improves performance over baseline models
 GridSearchCV helps identify better hyperparameters
 However, it does not eliminate overfitting completely
 Final model is strong but still biased toward training data
 
-🧠 Key takeaway
+Key takeaway
 
 XGBoost is powerful but sensitive — good tuning improves performance, but real gains come from controlling model complexity and preventing overfitting.
