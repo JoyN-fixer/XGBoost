@@ -36,7 +36,7 @@ min_child_weight: 1 or 2
 subsample: 0.5 or 0.7
 n_estimators: 100
 
-Final conclusion
+Conclusion
 XGBoost significantly improves performance over baseline models
 GridSearchCV helps identify better hyperparameters
 However, it does not eliminate overfitting completely
